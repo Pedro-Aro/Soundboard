@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Soundboard - Retrô</title>
+
+    <link rel="shortcut icon" href="assets/images/bateria.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body id="retro">
+
+    <header>
+
+        <a href="index.html">
+            <button>Voltar</button>
+        </a>
+
+        <h1>Soundboard</h1>
+        <h2>Jogos Retrô</h2>
+
+    </header>
+
+
+    <div class="destaque">
+
+        <img id="imagem_retro"
+            src="assets/images/bateria.webp"
+            alt="Imagem do som">
+
+        <h3 id="nome_retro">Escolha um som</h3>
+
+    </div>
+
+
+    <section class="teclado">
+
+        <button class="tecla tecla_moeda"
+            data-imagem="assets/images/moeda.png">
+            Moeda
+        </button>
+
+        <button class="tecla tecla_pulo"
+            data-imagem="assets/images/pulo.jpg">
+            Pulo
+        </button>
+
+        <button class="tecla tecla_gameover"
+            data-imagem="assets/images/gameover.jpg">
+            Game Over
+        </button>
+
+        <button class="tecla tecla_tiro"
+            data-imagem="assets/images/tiro.jpg">
+            Tiro
+        </button>
+
+        <button class="tecla tecla_poder"
+            data-imagem="assets/images/poder.jpg">
+            Poder
+        </button>
+
+        <button class="tecla tecla_vitoria"
+            data-imagem="assets/images/vitoria.webp">
+            Vitória
+        </button>
+
+    </section>
+
+
+    <audio src="assets/sounds/keyq (3).mp3" id="som_tecla_moeda"></audio>
+    <audio src="assets/sounds/keyw (3).mp3" id="som_tecla_pulo"></audio>
+    <audio src="assets/sounds/keye (3).mp3" id="som_tecla_gameover"></audio>
+    <audio src="assets/sounds/keya (3).mp3" id="som_tecla_tiro"></audio>
+    <audio src="assets/sounds/keys (3).mp3" id="som_tecla_poder"></audio>
+    <audio src="assets/sounds/keyd (3).mp3" id="som_tecla_vitoria"></audio>
+
+
+    <script src="scripts/app.js"></script>
+
+</body>
+
+</html>

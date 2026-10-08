@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Soundboard - Animais</title>
+
+    <link rel="shortcut icon" href="assets/images/bateria.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body id="animais">
+
+    <header>
+
+        <a href="index.html">
+            <button>Voltar</button>
+        </a>
+
+        <h1>Soundboard</h1>
+        <h2>Sons de Animais</h2>
+
+    </header>
+
+
+    <div class="destaque">
+
+        <img id="imagem_animais"
+            src="assets/images/bateria.webp"
+            alt="Imagem do som">
+
+        <h3 id="nome_animais">Escolha um som</h3>
+
+    </div>
+
+
+    <section class="teclado">
+
+        <button class="tecla tecla_cachorro"
+            data-imagem="assets/images/cachorro.jpg">
+            Cachorro
+        </button>
+
+        <button class="tecla tecla_gato"
+            data-imagem="assets/images/gato.jpg">
+            Gato
+        </button>
+
+        <button class="tecla tecla_leao"
+            data-imagem="assets/images/leao.jpg">
+            Leão
+        </button>
+
+        <button class="tecla tecla_passaro"
+            data-imagem="assets/images/passaro.jpg">
+            Pássaro
+        </button>
+
+        <button class="tecla tecla_vaca"
+            data-imagem="assets/images/vaca.jpg">
+            Vaca
+        </button>
+
+        <button class="tecla tecla_lobo"
+            data-imagem="assets/images/lobo.jpg">
+            Lobo
+        </button>
+
+    </section>
+
+
+    <audio src="assets/sounds/keyq.mp3" id="som_tecla_cachorro"></audio>
+    <audio src="assets/sounds/keyw.mp3" id="som_tecla_gato"></audio>
+    <audio src="assets/sounds/keye.mp3" id="som_tecla_leao"></audio>
+    <audio src="assets/sounds/keya.mp3" id="som_tecla_passaro"></audio>
+    <audio src="assets/sounds/keys.mp3" id="som_tecla_vaca"></audio>
+    <audio src="assets/sounds/keyd.mp3" id="som_tecla_lobo"></audio>
+
+
+    <script src="scripts/app.js"></script>
+
+</body>
+
+</html>
